@@ -1,0 +1,37 @@
+1.Explain the uses of NoSQL Databases in brief and list the current NoSQL databases which are available.
+
+It has a generic data model with Heterogeneous containers, including sets, maps, and arrays.
+Data is stored in single tables as compared to joining multiple tables.
+Adding more of the economical servers allows NoSQL databases to scale to handle more data.
+
+Horizontal scaling is possible in  NoSql databases:
+Distributed databases can store and process a set of information on more than one device.
+
+When compared to relational databases, NoSQL databases are more scalable and provide superior performance.
+Their data model addresses several issues that the relational model is not designed to address:
+
+Types of Data that can be processed:
+Large volumes of rapidly changing structured, semi-structured, and unstructured data.
+
+Agile sprints, quick schema iteration, and frequent code pushes
+Object-oriented programming that is easy to use and flexible
+Geographically distributed scale-out architecture instead of expensive, monolithic architecture
+
+The Current NoSQL databases that are available are as follows:
+MongoDB
+Redis
+Cassandra
+CouchDB
+HBase
+Accumulo
+Vertica
+
+2.Explain the Differences between Hive and HBase in Brief with examples.
+
+Hive is a query based language based on SQL which is useful to analyse data in the tables using HQL.
+Hive queries are internally converted to mapreduce operations by the execution engine.
+It doesnot provide row level update and delete operations.
+
+While, HBase is actually a database(NoSQL) in hadoop that provides row level update and delete operations.
+These databases can be queries using HBase shell commands.
+It is partitioned to tables, and tables are further split into column families.
